@@ -1,0 +1,107 @@
+.fundo_login {
+    background-color: #FFFFFF;
+}
+
+.fundo_login img {
+    width: 30vw;
+    height: 30vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.forms {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_inputs {
+    width: 90vw;
+    /* background-color: #0000ff; */
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40vmax;
+}
+
+
+/* .input_login{
+    width: 15vw;
+    height: 1vh;
+    background: transparent;
+    margin-top: 5vh;
+} */
+
+.input_login {
+    border: 0;
+    width: 350px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    color: #000;
+    text-align: left;
+    margin-top: 50px;
+    outline: 0;
+}
+
+.input_login:hover,
+.input_login:focus {
+    border: 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    background: transparent;
+    color: #000;
+    text-align: left;
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    text-align: left;
+    color: black;
+}
+
+.btn_login {
+    height: 6vh;
+    margin-top: 4vw;
+    width: 20vw;
+    border-radius: 20vw;
+    font-size: 1vw;
+    color: white;
+    background-color: #183861;
+    border: none;
+    /* margin-left: 2vh; */
+}
+
+.btn:hover {
+    background-color: #D5E1FA;
+    cursor: pointer;
+    color: #183861;
+}
+
+
+.red {
+    color: red;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #000;
+    margin-right: 250px;
+}
+
+a:hover {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0000ff;
+}
